@@ -1,0 +1,112 @@
+﻿*{margin:0; padding:0;}
+
+/*Importar fonte externa para corpo da pagina*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Montserrat);
+
+/*Aplicar a cor e a fonte de todos os elementos html*/
+*{
+    font-family: 'Open Sans', sans-serif !important;
+    color:#FFF;
+}
+
+/*Background do HTML*/
+body {
+    
+    background-color:  rgba(45, 159, 79, 0.9);
+      
+      background-size: cover;
+
+
+}
+
+#frmPerson{
+  width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  position: relative;
+
+
+}
+
+#frmPerson fieldset{
+    background-color:white;
+    opacity: 0.7;
+    border:0 none;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+
+    box-shadow:0 0 15px 1px rgba(0,0,0 0.4);
+    padding: 20px 30px;
+
+    box-sizing: border-box;
+    width:90%;
+    margin:0 30%;
+    position:absolute;
+}
+
+/*Rodapé HTML*/
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    margin: auto;
+    text-align: right;
+}
+
+/*Cabeçalho da tabela de pessoas*/
+#tblList thead{
+    background: gray;
+    color: #FFF;
+}
+
+#tblList{
+  background-color: #2F4F4F;
+  opacity: 0.9;
+  margin-left: 15px;
+  margin-top: 400px;
+  width:90%;
+
+
+
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 40px;
+    color: rgba(24, 6 , 242, 0.9);
+    text-shadow: 1px 1px 1px black;
+}
+
+#txtID, #txtName, #txtEmail, #txtPhone{
+  font:15px "Trebuchet MS",tahoma, arial;
+  color:#090;
+
+}
+
+#btnSave{
+  width: 80px;
+  background:rgba(38, 128 , 101, 0.9);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding:8px 0;
+  float: center;
+margin-right: 10px;
+margin-top: 10px;
+}
+
+.css img{
+ float: left;
+ width: 15%;
+ padding: 10px;
+ margin: 10px 15px 15px 15px;
+}
+
+.css2 img{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin: 200px 15px 15px -140px;
+}
+

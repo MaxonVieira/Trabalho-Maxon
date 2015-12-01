@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seleção de Invocadores</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+        <!-- Importação da tipografia  -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+        <!-- Importação de framework -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+
+
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="style.css" />
+
+        <!-- Funcões JavaScript -->
+        <script type="text/javascript" src="functions.js"></script>
+
+    </head>
+    <body>
+
+        <!-- Cabeçalho -->
+        <div class="page-header">
+
+        </div>
+
+        <div class="css">
+          <img src="http://cdn.marketplaceimages.windowsphone.com/v8/images/45dd9337-cf53-41a4-ad4b-52ff8b102536?imageType=ws_icon_large" alt="lolKing" title="logo" width="150" height="150" />
+        </div>
+        <div class="css2">
+          <img src="http://www.diamondelo.com/wp-content/uploads/2015/05/q1kq8v3.png" width="150" height="150" />
+        </div>
+        	
+        <!--Formulario de cadastro-->
+
+        <div class="container">
+            <form id="frmPerson" class="form-horizontal">
+              <fieldset>
+                <h1>Seleção de invocadores</h1>
+                <div class="form-group">
+                    <label for="txtID" class="col-sm-2 control-label">Nick</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="txtID" class="form-control" placeholder="Nick do Jogo">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="txtName" class="col-lg-2 control-label">Nome</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="txtName" class="form-control" placeholder="Nome">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="txtPhone" class="col-lg-2 control-label">Telefone</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="txtPhone" class="form-control" placeholder="Telefone">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="txtEmail" class="col-lg-2 control-label">Email</label>
+                    <div class="col-sm-4">
+                        <input type="email" id="txtEmail" class="form-control" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-lg-offset-2 col-sm-4">
+                        <input type="submit" value="Inserir" id="btnSave" class="btn btn-success"/>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+</fieldset>
+        <!--Tabela com os nomes cadastrados-->
+        <div class="container">
+            <table id="tblList" class="table table-bordered"></table>
+        </div>
+
+        <!--Rodapé-->
+        <div id="footer">
+            <div class="container">
+                <p class="text-muted credit">Ícaro Góes e Maxon Vieira</p>
+            </div>
+        </div>
+
+    </body>
+</html>
